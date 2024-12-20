@@ -1,6 +1,9 @@
+import { lotteryAddress } from "./environment";
 import web3 from "./web3";
 
-const address = "0x047b37Ef4d76C2366F795Fb557e3c15E0607b7d8";
+const address = lotteryAddress;
+
+console.log({ address });
 
 const abi = [
   {
