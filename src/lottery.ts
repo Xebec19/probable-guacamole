@@ -3,8 +3,6 @@ import web3 from "./web3";
 
 const address = lotteryAddress;
 
-console.log({ address });
-
 const abi = [
   {
     constant: true,
